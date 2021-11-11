@@ -125,7 +125,6 @@ class ScaleText extends Component {
     const style = {
       fontSize: fontSize ? `${fontSize.toFixed(2)}px` : 'inherit',
       width: '100%',
-      height: '100%',
       ...overflowStyle
       // overflow: 'hidden'
     };
